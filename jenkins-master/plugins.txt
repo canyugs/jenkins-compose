@@ -19,6 +19,9 @@ github 1.21.1
 github-api 1.77
 github-branch-source 1.9
 github-organization-folder 1.5
+gitlab-merge-request-jenkins
+gitlab-plugin
+gitlab-hook
 groovy 1.29
 handlebars 1.1.1
 icon-shim 2.0.3
