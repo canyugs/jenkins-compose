@@ -58,6 +58,9 @@ EXPOSE 8080
 # will be used by attached slave agents:
 EXPOSE 50000
 
+# Robot report security problem
+ENV -Dhudson.model.DirectoryBrowserSupport.CSP=
+
 ENV COPY_REFERENCE_FILE_LOG $JENKINS_HOME/copy_reference_file.log
 
 USER ${user}
