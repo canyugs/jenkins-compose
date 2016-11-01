@@ -19,7 +19,9 @@ RUN rm /etc/nginx/conf.d/example_ssl.conf
 # Add default configuration
 COPY conf/jenkins.conf /etc/nginx/conf.d/jenkins.conf
 COPY conf/nginx.conf /etc/nginx/nginx.conf
+COPY conf/cm.conf /etc/nginx/conf.d/cm.conf
 
 EXPOSE 80
+EXPOSE 5000
 
 CMD ["nginx"]
