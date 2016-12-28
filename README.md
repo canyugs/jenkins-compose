@@ -1,5 +1,6 @@
 This Project is clone from maxfields2000/dockerjenkins_tutorial
 
+這是 Tera 用的 Jenkins
 
 # Update jenkins version
 
