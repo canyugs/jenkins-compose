@@ -7,7 +7,7 @@ This Project is clone from maxfields2000/dockerjenkins_tutorial
  - Jenkins (jenkins-master)
  - nginx   (jenkins-nginx)
  - data    (jenkins-data)
- - theme   (jenkins-theme)
+ - theme   (jenkins-theme) // for Web theme
  - slave   (jenkins-slave) // Not use
 
 # Run docker-compose
